@@ -17,7 +17,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "./styles/style.scss";
 
 // App Components
-import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/Preloader/Preloader";
 
@@ -46,10 +45,7 @@ const App = (props) => {
             </Helmet>
 			<Preloader visibility={loader} />
 			<div className={"preloader "+ pageClasses}>
-				<Header />
-				<main className="main">
-					<Routes />
-				</main>
+				<Routes />
 				<Footer />
 			</div>
 		</BrowserRouter>

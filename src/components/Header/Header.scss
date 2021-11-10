@@ -1,23 +1,37 @@
 .site-header{
-    min-height: 66px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid rgb(236, 239, 241);
-    background-color: #fff;
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 99;
+    
+    .main-nav{
+        min-height: 66px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(236, 239, 241);
+        background-color: #fff;
+    }
+    .header-bottom{
+        min-height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid rgb(236, 239, 241);
+        background-color: #fff;
+    }
     .logo{
         max-width: 112px;
     }
 
-    .main-menu{
-        a{
-            font-size: 14px;
-            margin: 0 18px;
-            font-weight: 500;
-        } 
-    }   
+    a{
+        font-size: 14px;
+        margin: 0 18px;
+        font-weight: 500;
+        transition: .2s ease-in-out;
+        &.active, &:hover{
+            color: #0052ff;
+            text-decoration: none;
+        }
+    } 
 }
