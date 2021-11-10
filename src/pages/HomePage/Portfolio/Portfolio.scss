@@ -1,0 +1,16 @@
+.portfolio{
+    .item{
+        display: flex;
+        .icon{
+            min-width: 72px;
+            height: 72px;
+            margin-right: 32px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 8px 16px rgba(218, 225, 233, .56);
+        }
+    }
+}

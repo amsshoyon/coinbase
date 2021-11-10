@@ -1,0 +1,33 @@
+.coin-listing{
+    .icon{
+        height: 32px;
+        width: auto;
+        margin-right: 16px;
+    }
+    table{
+        width: 100%;
+        border: 1px solid#5b616e33;
+        td, th{
+            border-top: 1px solid#5b616e33;
+            padding: 16px 48px 16px 0px;
+            &:first-child{
+                padding-left: 32px;
+            }
+            &:last-child{
+                width: fit-content;
+                padding-right: 0;
+            }
+        }
+        thead{
+            th{
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+        tbody{
+            tr{
+
+            }
+        }
+    }
+}

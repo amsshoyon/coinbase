@@ -1,0 +1,19 @@
+.footer{
+    background-color: #fff;
+    padding: 100px 24px;
+    .container{
+        max-width: 1132px;
+    }
+    &-logo {
+        max-width: 112px;
+    }
+    select{
+        border: 1px solid rgb(238,240,243);
+        padding: 4px;
+        border-radius: 4px;
+        max-width: 220px;
+    }
+    .social a, .copyright{
+        color: #113355; 
+    }
+}
