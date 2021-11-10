@@ -89,6 +89,7 @@ html {
 }
 
 .container {
+    max-width: 1180px;
     &.sm{
         max-width: 1030px;
     }

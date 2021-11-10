@@ -176,6 +176,16 @@ a{
     }
 }
 
+.fz56 {
+    font-size: rem(56);
+    @media(max-width: 1200px){
+        font-size: 32px;
+    }
+    @media(max-width: 575px){
+        font-size: 24px;
+    }
+}
+
 .fz62 {
     font-size: rem(62);
     @media(max-width: 1200px){

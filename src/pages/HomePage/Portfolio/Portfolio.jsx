@@ -3,7 +3,7 @@ import './Portfolio.scss'
 
 const Portfolio = () => {
     return (
-        <section className="portfolio py-lg">
+        <section className="portfolio py-lg border-bottom">
             <div className="container">
                 <h2 className="fz40 text-center fw-600 mb-3">Create your cryptocurrency portfolio today</h2>
                 <p className="fz14 text-center pb-lg">Coinbase has a variety of features that make it the best place to start trading</p>
