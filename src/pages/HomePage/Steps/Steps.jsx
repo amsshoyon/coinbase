@@ -8,7 +8,7 @@ const Steps = () => {
                 <h2 className="fz40 text-center fw-600 mb-3">Get started in a few minutes</h2>
                 <p className="fz14 text-center pb-lg">Coinbase supports a variety of the most popular digital currencies.</p>
                 <div class="d-flex flex-wrap justify-content-between">
-                    <div class="item text-center d-flex flex-column align-items-center">
+                    <div class="item text-center d-flex flex-column align-items-center mb-5 mb-sm-0">
                         <div className="icon mb-4">
                             <svg width="64" height="60" viewBox="0 0 64 60" fill="none">
                                 <path
@@ -22,8 +22,8 @@ const Steps = () => {
                         </div>
                         <p class="fz20 fw-600">Create an account</p>
                     </div>
-                    <div class="line"></div>
-                    <div class="item text-center d-flex flex-column align-items-center">
+                    <div class="line d-none d-sm-block"></div>
+                    <div class="item text-center d-flex flex-column align-items-center mb-5 mb-sm-0">
                         <div className="icon mb-4">
                             <svg width="65" height="56" viewBox="0 0 65 56" fill="none">
                                 <path d="M57.03 20h-50v24h50V20z" fill="#BFE9FF"></path>
@@ -38,8 +38,8 @@ const Steps = () => {
                         </div>
                         <p class="fz20 fw-600">Link your bank account</p>
                     </div>
-                    <div class="line"></div>
-                    <div class="item text-center d-flex flex-column align-items-center">
+                    <div class="line d-none d-sm-block"></div>
+                    <div class="item text-center d-flex flex-column align-items-center mb-5 mb-sm-0">
                         <div className="icon mb-4">
                             <svg width="61" height="56" viewBox="0 0 61 56" fill="none">
                                 <path

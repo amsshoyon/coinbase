@@ -6,9 +6,10 @@
 
 .subscribe-form{
     input{
-        font-size: 18px;
-        font-weight: 400;
         padding: 20px;
         border-radius: 3px;
+        @media(max-width: 640px){
+            padding: 10px 15px;
+        }
     }
 }

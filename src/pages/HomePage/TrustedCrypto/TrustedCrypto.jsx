@@ -8,7 +8,7 @@ const TrustedCrypto = () => {
                 <h2 className="fz40 text-center fw-600 mb-3">The most trusted cryptocurrency platform</h2>
                 <p className="fz14 text-center pb-lg">Here are a few reasons why you should choose Coinbase</p>
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 mb-5 mb-sm-0">
                         <div className="d-flex flex-column align-items-center text-center justify-content-between h-100">
                             <div>
                                 <div className="icon mb-3">
@@ -31,7 +31,7 @@ const TrustedCrypto = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 mb-5 mb-sm-0">
                         <div className="d-flex flex-column align-items-center text-center justify-content-between h-100">
                             <div>
                                 <div className="icon mb-3">
@@ -45,7 +45,7 @@ const TrustedCrypto = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 mb-5 mb-sm-0">
                         <div className="d-flex flex-column align-items-center text-center justify-content-between h-100">
                             <div>
                                 <div className="icon mb-3">

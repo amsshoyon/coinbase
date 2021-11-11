@@ -118,6 +118,9 @@ a{
 
 .fz18 {
     font-size: rem(18);
+    @media(max-width: 575px){
+        font-size: 14px;
+    }
 }
 
 .fz20 {

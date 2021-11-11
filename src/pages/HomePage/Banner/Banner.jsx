@@ -10,8 +10,8 @@ const Banner = () => {
         <section className="banner pt-lg">
             <div className="container sm">
                 <div className="row align-items-center">
-                    <div className="col-md-6">
-                        <div className="d-flex align-items-center mb-3">
+                    <div className="col-md-6 col-sm-12 mb-5 mb-sm-0 text-center text-sm-start">
+                        <div className="d-flex align-items-center mb-3 justify-content-center justify-content-sm-start">
                             <IconBitcoin />
                             <span className="text-primary fz16 fw-600 mx-2">Jump start your portfolio </span> 
                             <IconArrowRight />
@@ -28,18 +28,18 @@ const Banner = () => {
                                     autocapitalize="off" 
                                     spellcheck="false"
                                     name="email" 
-                                    className="form-control me-3" 
+                                    className="form-control me-3 fz18" 
                                 />
                                 <Button variant="contained" color="primary" size="large" className="px-5 fz16 fw-600">Get started</Button>
                             </div>
                         </form>
-                        <div>
+                        <div className="text-start w-100">
                             <a className="fz10 text-primary" href="/">
                                 * Terms apply
                             </a>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-12">
                         <div className="ps-md-5">
                             <BannerImage />
                         </div>

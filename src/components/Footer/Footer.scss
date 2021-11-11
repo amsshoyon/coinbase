@@ -1,6 +1,10 @@
 .footer{
     background-color: #fff;
     padding: 100px 24px;
+    @media(max-width: 640px){
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
     .container{
         max-width: 1132px;
     }

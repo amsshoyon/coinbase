@@ -3,7 +3,7 @@ import React from 'react'
 const FooterMenu = () => {
     return (
         <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 col-6">
                 <div className="menu-group mb-4">
                     <h2 className="fz16 fw-600 mb-2">Company</h2>
                     <ul className="text-gray">
@@ -78,7 +78,7 @@ const FooterMenu = () => {
                     </ul>
                 </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 col-6">
                 <div className="menu-group mb-4">
                     <h2 className="fz16 fw-600 mb-2">Individuals</h2>
                     <ul className="text-gray">
@@ -139,7 +139,7 @@ const FooterMenu = () => {
                     </ul>
                 </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 col-6">
                 <div className="menu-group mb-4">
                     <h2 className="fz16 fw-600 mb-2">Support</h2>
                     <ul className="text-gray">

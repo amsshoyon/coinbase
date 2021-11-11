@@ -7,7 +7,7 @@ const Earning = () => {
         <section className="earnings pb-lg">
             <div className="container">
                 <div className="row justify-content-between align-items-center">
-                    <div className="col-md-4">
+                    <div className="col-md-4 mb-5 mb-sm-0 text-center text-sm-start">
                         <h2 className="fz32 fw-600 mb-3"> Earn up to $26 worth of crypto</h2>
                         <p className="mb-4 fz14 text-dark">Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for
                             yourself.</p>

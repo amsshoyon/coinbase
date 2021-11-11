@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterInfo = () => {
     return (
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column mb-5">
             <div className="logo pb-2">
                 <img src="/assets/images/logo.svg" alt="Coinbase logo" className="footer-logo mb-4" />
             </div>
